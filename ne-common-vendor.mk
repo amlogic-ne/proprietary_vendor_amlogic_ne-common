@@ -57,8 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/ne-common/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/amlogic/ne-common/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
     vendor/amlogic/ne-common/proprietary/vendor/etc/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
-    vendor/amlogic/ne-common/proprietary/vendor/etc/wifi/p2p_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant.conf \
-    vendor/amlogic/ne-common/proprietary/vendor_dlkm/lib/modules/amlogic_fbc_lib.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/amlogic_fbc_lib.ko
+    vendor/amlogic/ne-common/proprietary/vendor/etc/wifi/p2p_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant.conf
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources-aidl \
@@ -149,6 +148,7 @@ PRODUCT_PACKAGES += \
     libsystemcontrolservice_recovery \
     vendor.amlogic.hardware.systemcontrol@1.0_recovery \
     vendor.amlogic.hardware.systemcontrol@1.1_recovery \
+    amlogic_fbc_lib \
     com.google.android.widevine.nonupdatable \
     droidlogic.software.core \
     android.hardware.boot-service.droidlogic.xml \
